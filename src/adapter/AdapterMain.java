@@ -17,14 +17,14 @@ public class AdapterMain {
 	 * İlk iki satıra bakalim. Normal bir Audioplayer'imiz var.Tarkanın mp3'ünü
 	 * çalıyor normal bir şekilde. Sorun yok çünkü Audioplayer .mp3 çalabiliyor.
 	 * Fakat 3. satırda client bir mp4 dosyasi çalmak istiyor. Devreye Nuri
-	 * Sesigüzel girmiş.Durum ciddi. Çünkü audioplayerimiz .mp3 dışındaki
+	 * Sesigüzel girmiş.Durum ciddi! Çünkü audioplayerimiz .mp3 dışındaki
 	 * formatları desteklemiyor. Bunun için Mp4Player sınıfımız var ama
 	 * client'in müzik çalmak için çağırdığı kodu değiştirmek zorunda olmasını
 	 * istemiyoruz. Yani AudioPlayer üzerinden istesin yine ne çalmak istiyorsa.
 	 * Adapter pattern burada devreye giriyor. Bir MediaAdapter sınıfı
 	 * yazıyoruz. Bu MediaAdapter öyle birşey ki hem AudioPlayer'in implemete
 	 * ettiği interface'i implemente ediyor hem de Mp4Player sınıfı türünden bir
-	 * nesnesi var kendi içinde.Yani hem AudioPlayer'la hem de Mp4Player iile
+	 * nesnesi var kendi içinde.Yani hem AudioPlayer'la hem de Mp4Player ile
 	 * akraba. Bu durumda her iki formatı da desteklemiş oluyoruz.
 	 * 
 	 * Şimdi durduk yere
