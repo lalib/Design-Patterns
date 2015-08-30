@@ -30,7 +30,7 @@ public class TemplateMethodMain {
 	 * metodların çalışma sırasını ben belirledim. Bunun dışına çıkamazsın, ama
 	 * içini istediğin gibi implemente edebilirsin.
 	 * 
-	 * Template method sıklıkla karşılaşılan bir patterndir. Kullanımı da kolay vebasittir.
+	 * Template method sıklıkla karşılaşılan bir patterndir. Kullanımı da kolay vebasittir. 
 	 * 
 	 */
 
